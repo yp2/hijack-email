@@ -30,4 +30,5 @@ Email.send(HijackEmail({
 ```
 
 `HijackEmail` if proper options will be set in settings, will replace `to`, `cc`, `bcc` with email address defined in
-your app settings - `hijackEmailAddress` also subject will be change to: _-- Email hijacked. Email send to: to@domain.com. Subject: Subject --_
+your app settings - `hijackEmailAddress` also subject will be change to:
+> -- Email hijacked. Email send to: to@domain.com. Subject: Subject --
