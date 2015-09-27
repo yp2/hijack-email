@@ -1,6 +1,6 @@
 Package.describe({
     name: 'yp2:hijack-email',
-    version: '0.0.2',
+    version: '1.0.0',
     // Brief, one-line summary of the package.
     summary: 'Hijack emails in development.',
     // URL to the Git repository containing the source code for this package.

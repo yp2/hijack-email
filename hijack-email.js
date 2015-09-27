@@ -8,7 +8,7 @@ HijackEmail = function (options) {
         hijackEmail = true;
 
     if (!hijack) {
-        hijackEmail = false;
+        return options
     } else if (hijack && !emailRe.test(hijackAddress)) {
         hijackEmail = false;
         console.log("To hijack email set proper email address in app settings");
